@@ -1,0 +1,82 @@
+.about{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.about-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+
+.about-card{
+    width: 60%;
+    height: 70vh;
+    border-radius:30px ;
+    position: absolute;
+    overflow: hidden;
+    
+}
+
+.about-card.bg{
+    position: absolute;
+    top: 50px;
+    left:50px;
+    background-color: aqua;
+}
+.about-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.about-right{
+    flex: 1;
+}
+
+.about-title{
+    font-weight: 400;
+}
+
+.about-subtitle{
+    margin: 20px 0px;
+    
+}
+
+.about-description{
+    font-weight: 300;
+}
+
+/* Mobile Screens */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .about{
+        height: 50vh;
+    }
+
+    .about-card{
+        height: 35vh;
+    }
+  }
+  
+  /* IPad and Tablets */
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    .about{
+        height: 75vh;
+    }
+
+    .about-card{
+        height: 52vh;
+    }
+
+  }
+  
+  /* Laptop screens */
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+  }

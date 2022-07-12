@@ -11,6 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .intro-right{
@@ -89,3 +90,33 @@
 .intro-scroll{
     color:$primary-accent-color
 }
+
+/* Mobile Screens */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .introduction{
+        height: 100vh;
+        flex-direction: column-reverse;
+        
+    }
+
+    .intro-left-wrapper{
+        height: 70%;
+        padding: 50px 10px;
+       
+    }
+    // .intro-image{
+    //     width: 50%;
+    //     height: 50%;
+        
+    // }
+  }
+  
+  /* IPad and Tablets */
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+
+  }
+  
+  /* Laptop screens */
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+  }
