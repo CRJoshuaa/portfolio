@@ -1,3 +1,5 @@
+@import "../../App.scss";
+
 .about{
     height: 100vh;
     display: flex;
@@ -26,7 +28,7 @@
     position: absolute;
     top: 50px;
     left:50px;
-    background-color: aqua;
+    background-color:$primary-background-color;
 }
 .about-image{
     width: 100%;

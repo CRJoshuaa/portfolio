@@ -1,0 +1,35 @@
+@import "../../../App.scss";
+
+.project{
+    width: 30%;
+    height:40vh ;
+    margin: 20px 10px;
+    border: 2px solid $primary-accent-color;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+
+.project-browser{
+    height: 20px;
+    background-color: $primary-accent-color;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 2;
+}
+
+.project-circle{
+    width: 6px;
+    height: 6px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 3px;
+}
+.project-image{
+    width: 100%;
+    transition: all 10s ease;
+}
+
+.project:hover .project-image{
+    transform: translateY(-100%);
+}
