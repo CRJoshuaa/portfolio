@@ -1,10 +1,11 @@
 
 import './App.scss';
 import About from './components/About';
+import Contact from './components/Contact';
 
 import Introduction from './components/Introduction';
 import ProjectList from './components/ProjectList';
-import Projects from './components/ProjectList';
+
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Introduction/>
       <About/>
       <ProjectList/>
+      <Contact/>
     </div>
   );
 }

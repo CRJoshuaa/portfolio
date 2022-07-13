@@ -1,0 +1,90 @@
+@import "../../App.scss";
+
+.contact{
+    height: 50vh;
+    position: relative;
+}
+
+.contact-bg{
+    height: 100%;
+    width: 20px;
+    background-color: $background-color-1;
+    position: absolute;
+}
+
+.contact-wrapper{
+    padding: 50px;
+    display: flex;
+}
+
+.contact-left{
+    flex: 1;
+}
+
+.contact-title{
+    font-size: 60px;
+    width: 80%;
+}
+
+.contact-info{
+
+}
+
+.contact-info-item{
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+    font-weight: 300;
+    width: 70%;
+   
+}
+
+.contact-info-item-icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    color: $accent-color-2;
+}
+
+
+.contact-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-description{
+    font-weight: 200;
+}
+
+form{
+    margin-top: 20px;
+}
+
+input{
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid $accent-color-2;
+    margin: 10px 0;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+textarea{
+    width: 100%;
+    margin: 10px 0;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+button{
+    border: none;
+    padding: 15px;
+    background-color: $background-color-1;
+    color: $font-color-1;
+    font-weight: 500;
+    cursor: pointer;
+}
