@@ -1,14 +1,19 @@
-import React, { useRef, useState } from 'react'
+import React, { useRef, useState,useContext } from 'react'
 import "./index.scss"
 import ContactPhoneIcon from '@mui/icons-material/ContactPhone';
 import EmailIcon from '@mui/icons-material/Email';
 import emailjs from '@emailjs/browser';
+
+import { ThemeContext } from '../../context/ThemeContext';
 
 const Contact = () => {
    
 
     const formRef=useRef();
     const [done,setDone]=useState(false)
+
+    const theme = useContext(ThemeContext)
+    const darkMode=theme.state.darkMode
 
     //UNCOMMENT SECTIONS FOR EMAIL SERVER
     // const handleSubmit=(e)=>{

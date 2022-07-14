@@ -1,5 +1,7 @@
 import "./index.scss"
 
+import Me from "../../assets/images/me2.jpg"
+
 import React from 'react'
 
 const About = () => {
@@ -8,7 +10,7 @@ const About = () => {
         <div className="about-left">
         <div className="about-card bg"></div>
             <div className="about-card">
-                <img src="https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg" 
+                <img src={Me}
                     alt="" className="about-image" />
             </div>
             

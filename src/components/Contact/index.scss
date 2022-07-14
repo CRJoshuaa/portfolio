@@ -1,4 +1,4 @@
-@import "../../App.scss";
+@import "../../assets/styles/global.scss";
 
 .contact{
     height: 50vh;
@@ -88,3 +88,27 @@ button{
     font-weight: 500;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 480px) {
+    .contact-wrapper{
+        flex-direction: column;
+        padding: 0 50px;
+        
+    }
+
+    .contact-title{
+        font-size: 30px;
+        
+    }
+
+    .contact-info-item{
+        margin: 20px 0;
+        width: 100%;
+    }
+
+    .contact-description{
+        display: none;
+    }
+
+  
+  }

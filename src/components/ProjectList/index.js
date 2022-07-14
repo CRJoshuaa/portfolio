@@ -8,7 +8,7 @@ const ProjectList = () => {
   return (
     <div className="project-list">
       <div className="project-list-text">
-        <h1 className="project-list-title"> Projects</h1>
+        <h1 className="project-list-title"> My Work So Far</h1>
         <p className="project-list-description">
           Here are a few of the projects that I have worked on. These projects 
           were completed both during my university career as well as during my free time

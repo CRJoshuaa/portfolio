@@ -1,17 +1,17 @@
-@import "../../../App.scss";
+@import "../../../assets/styles/global.scss";
 
 .project{
     width: 30%;
     height:40vh ;
     margin: 20px 10px;
-    border: 2px solid $primary-accent-color;
+    border: 2px solid $accent-color-2;
     border-radius: 10px 10px 0 0;
     overflow: hidden;
 }
 
 .project-browser{
     height: 20px;
-    background-color: $primary-accent-color;
+    background-color: $accent-color-2;
     display: flex;
     align-items: center;
     position: sticky;
@@ -31,5 +31,16 @@
 }
 
 .project:hover .project-image{
-    transform: translateY(-100%);
+    transform: translateY(-40%);
 }
+
+@media only screen and (max-width: 480px) {
+    .project{
+        width: 40%;
+        height: 20vh;
+    }
+
+    
+
+  
+  }

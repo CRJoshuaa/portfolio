@@ -1,4 +1,4 @@
-@import "../../App.scss";
+@import "../../assets/styles/global.scss";
 
 .about{
     height: 100vh;
@@ -19,7 +19,7 @@
     width: 60%;
     height: 70vh;
     border-radius:30px ;
-    position: absolute;
+    position: relative;
     overflow: hidden;
     
 }
@@ -28,7 +28,7 @@
     position: absolute;
     top: 50px;
     left:50px;
-    background-color:$primary-background-color;
+    background-color:$background-color-1;
 }
 .about-image{
     width: 100%;
@@ -56,29 +56,31 @@
 }
 
 /* Mobile Screens */
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
     .about{
-        height: 50vh;
+       
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
     }
+    // .about-left{
+    //    display: none;
+    // }
 
     .about-card{
-        height: 35vh;
+        height: 40vh;
+        width: 50vw;
     }
+
+    .about-card.bg{
+        display: none;
+    }
+
+    .about-right{
+        padding: 20px;
+    }
+
+    
   }
   
-  /* IPad and Tablets */
-  @media only screen and (min-width: 481px) and (max-width: 768px) {
-    .about{
-        height: 75vh;
-    }
-
-    .about-card{
-        height: 52vh;
-    }
-
-  }
   
-  /* Laptop screens */
-  @media only screen and (min-width: 769px) and (max-width: 1024px) {
-
-  }

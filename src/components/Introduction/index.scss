@@ -1,4 +1,4 @@
-@import "../../App.scss";
+@import "../../assets/styles/global.scss";
 
 .introduction{
     display: flex;
@@ -65,7 +65,7 @@
     height: 50px;
     font-size: 30px;
     font-weight: bold;
-    color: $primary-font-color;
+    color: $font-color-2;
     display: flex;
     align-items: center;
 }
@@ -79,7 +79,7 @@
 
 .intro-bg{
     clip-path: polygon(100% 0%, 100% 52%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
-    background-color:$primary-background-color;
+    background-color:$background-color-1;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -88,35 +88,31 @@
 }
 
 .intro-scroll{
-    color:$primary-accent-color
+    color:$accent-color-2
 }
 
 /* Mobile Screens */
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
     .introduction{
-        height: 100vh;
-        flex-direction: column-reverse;
+        flex-direction: column;
         
     }
 
     .intro-left-wrapper{
-        height: 70%;
-        padding: 50px 10px;
-       
+        height: 100%;
+        padding:10px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
     }
-    // .intro-image{
-    //     width: 50%;
-    //     height: 50%;
-        
-    // }
-  }
-  
-  /* IPad and Tablets */
-  @media only screen and (min-width: 481px) and (max-width: 768px) {
+
+    .intro-desc{
+        display: none;
+    }
+    .intro-tags-item{
+        justify-content: center;
+    
+    }
 
   }
   
-  /* Laptop screens */
-  @media only screen and (min-width: 769px) and (max-width: 1024px) {
-
-  }

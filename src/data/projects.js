@@ -1,4 +1,6 @@
 import airbnbImg from "../assets/images/airbnb-clone.png"
+import netflixImg from "../assets/images/netflix-clone.png"
+
 export const projects = [
     {
       id: 1,
@@ -7,7 +9,7 @@ export const projects = [
     },
     {
       id: 2,
-      img: "https://media.istockphoto.com/vectors/project-management-vector-illustration-business-administration-manage-vector-id1136679371?k=20&m=1136679371&s=612x612&w=0&h=HZrbdbf3sCY-ffvxSw4-r7t0YE6cwraFX2NAmA9hYjY=",
+      img: netflixImg,
       link: "https://github.com/CRJoshuaa/Netflix-clone",
     },
     {
