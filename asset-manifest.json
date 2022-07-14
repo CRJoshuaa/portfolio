@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.24027835.css",
-    "main.js": "/portfolio/static/js/main.b6111409.js",
+    "main.css": "/portfolio/static/css/main.15ba926a.css",
+    "main.js": "/portfolio/static/js/main.d2587ae6.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/netflix-clone.png": "/portfolio/static/media/netflix-clone.3d52a9bfbea77591f847.png",
     "static/media/airbnb-clone.png": "/portfolio/static/media/airbnb-clone.20e4cef7e45c7bdeb11e.png",
     "static/media/me.png": "/portfolio/static/media/me.1b4efba80c52464a6a2f.png",
+    "static/media/me2.jpg": "/portfolio/static/media/me2.b5354dd62b1cbf80d1f4.jpg",
     "static/media/Poppins-Black.ttf": "/portfolio/static/media/Poppins-Black.d8b850b920a5ef49d752.ttf",
     "index.html": "/portfolio/index.html",
-    "main.24027835.css.map": "/portfolio/static/css/main.24027835.css.map",
-    "main.b6111409.js.map": "/portfolio/static/js/main.b6111409.js.map",
+    "main.15ba926a.css.map": "/portfolio/static/css/main.15ba926a.css.map",
+    "main.d2587ae6.js.map": "/portfolio/static/js/main.d2587ae6.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.24027835.css",
-    "static/js/main.b6111409.js"
+    "static/css/main.15ba926a.css",
+    "static/js/main.d2587ae6.js"
   ]
 }
